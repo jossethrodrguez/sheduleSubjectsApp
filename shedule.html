@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="Style/Style.css">
+	<link rel="stylesheet" type="text/css" href="Style/subjects.css">
+	<title> Trimestre I | octubre-Diciembre 2020</title>
+	<style type="text/css">
+		/*Subjects*/
+	.subjects{
+		float: left;
+		font-size: 21px;
+		list-style: none;
+		padding: 2%;
+		text-decoration: none;
+		box-sizing: content-box;
+	}
+	.subjects a{
+		color: #fff;text-decoration: none;
+	}
+/*Every Subject Id*/
+	
+	#subject-1{background: linear-gradient(80deg,#4400ee,#5511ff);color: #fff;margin-left: 5%}
+	#subject-2{background: #33bbbb;color: #fff}	
+	#subject-3{background: linear-gradient(80deg,#009962,#11aa73);color: #fff}
+    #subject-4{background: linear-gradient(80deg,#3355ff,#5577ff);color: #fff}
+    #subject-5{background:#bdd355;color: #fff}
+    #subject-6{background: #9ebbdd;color: #fff}
+/*Every Subject:Hover*/
+    .subjects:hover ul.items{ display: block; transition: 2s}
+    #subject-1:hover{background: linear-gradient(80deg ,#2c82dd,#2d72ee);}
+	#subject-2:hover{background: #33cccc;}
+	#subject-3:hover{background: #44cc77;}
+	#subject-4:hover{background: #5577ff;}
+	#subject-5:hover{background: #ded366;}
+	#subject-6:hover{background: #9eccee;}
+
+	#subject-1 .activities:hover{background: linear-gradient(80deg,#4400ee,#5511ff);}
+	#subject-2 .activities:hover{background: #33bbbb}
+	#subject-3 .activities:hover{background: linear-gradient(80deg,#009962,#11aa73);}
+	#subject-4 .activities:hover{background: linear-gradient(80deg,#3355ff,#5577ff);}
+	#subject-5 .activities:hover{background:#bdd344}
+	#subject-6 .activities:hover{background: #9ebbdd}
+
+/*Media screen*/
+@media screen and (max-width:1990px ){
+	#subject-1{margin-left: 5%;}
+}
+@media screen and (max-width: 2050px){
+	.subjects{ float: none; padding: 5% 20% 5% 5%;;margin: 0% 0% 1% 5%;width: 50%; font-size: 40px}
+	.subjects:hover .activities{; padding-right: 200px}
+	#subject-1{margin-left: 5%;}
+}
+@media screen and (max-width:1487px ){
+	.subjects{width: 20% ;margin: 0% 0% 1% 5%;font-size: 30px}
+}
+@media screen and (max-width: 801px){
+	.subjects{width: 80%;margin-bottom: 2%;min-height: 40px;padding: 2% 1% 2% 2%;font-size: 25px}
+}
+
+ody{
+	background: #d1d1d1;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	padding-top: 40px;
+	min-width: 50px
+}
+	div#container{
+		width: 80%;
+		margin: 10px auto ;
+	}
+		header{
+			background: #ff8908;
+			text-align: center;
+			color: #fff;
+			padding: 1%;
+		}
+
+	/*Start Items List*/
+		ul.items{display: none;font-size: 20px;font-weight: 900}
+	/*Start activities*/
+		.activities{font-size: 20px;margin-bottom: 20px;font-weight: 100; box-sizing: content-box;}
+		.activities:hover{ 
+			padding: 5%; 
+			font-size: 24px;
+			border-radius: 15px;
+			transition: 0.8s
+		}
+		.activities:hover .details{display: block;}
+	/*start details*/
+		.details{display: none;}	
+@media screen and (max-width: 2050px){
+	ul.items{font-size: 30px;}
+	.activities{font-size: 30px}
+	.activities:hover{font-size: 35px}
+}
+@media screen and (max-width: 1487px){
+	.activities{font-size: 20px}
+	.activities:hover{font-size: 25px}
+	ul.items{font-size: 20px;}
+
+}
+@media screen and (max-width: 801px){
+	.activities{font-size: 20px}
+	.activities:hover{font-size: 20px}
+}
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<header><h1>Trimestre I | Octubre - Diciembre 2020</h1>
+		</header>
+		
+		<!-- Subjects -->
+			<div id="cleaner">
+				<br>
+			</div>
+	<li class="subjects" id="subject-1"><a href="">Calculo I</a>
+		<ul class="items">Corte I	
+			<li class="activities"><a href="">Teoria Potenciacion/Radicacion✅ </a>
+				<ul>  
+					<li class="details">entrega:25/10/2020</li>
+				</ul>
+			</li>
+			<li class="activities"><a href="http://moodle.uniojedaead.com/pluginfile.php/17785/mod_resource/content/1/Introducci%C3%B3n%20al%20C%C3%A1lculo%20ParteII.pdf">Introduccion Al Calculo </a>✔
+				<ul>  
+					<li class="details">entrega:17/11/2020</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li class="subjects" id="subject-2"><a href="">Formacion Deportiva I</a>
+		<ul class="items">I Corte
+			<li class="activities">Informe Escrito✅ 
+				<ul>
+					  <li class="details">entrega: 18/10/2020</li>
+			    </ul>
+			 </li>
+		</ul>	 
+		<ul class="items">II Corte
+			 <li class="activities">Realizar Video Sobre rutinas de Ejercicio con informe✅
+			 	<ul>
+					  <li class="details">entrega:8/11/2020</li>
+			    </ul>
+			 </li>
+		</ul>
+		<ul class="items">III Corte
+			<li class="activities">Informe Escrito (Sistema esqueletico / primeros auxilios) 
+				<ul>
+					  <li class="details">entrega: 12/12/2020</li>
+			    </ul>
+			 </li>
+		</ul>	 
+	</li>
+	<li class="subjects" id="subject-3"><a href="">Geometria</a>
+		<ul class="items">I Corte
+			<li class="activities">teoria geometria metrica✅
+				<ul>
+					<li class="details">entrega:23/10/2020</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li class="subjects" id="subject-4"><a href="">Introduccion A la Ingeneria</a>
+		<ul class="items">I Corte
+			<li class="activities">Ingenieria: Origen y Evolucion✅
+				<ul>
+					<li class="details">entrega:9/11/2020</li>
+				</ul>
+			</li>	
+		</ul>
+	</li>
+	<li class="subjects" id="subject-5"><a href="">Lenguaje I</a>
+		<ul class="items">I Corte
+			<li class="activities">Actividad I:Comunicacion,lengua,habla,Etc...✅
+				<ul>
+					<li class="details">entrega:30/10/2020</li>
+				</ul>
+			</li>
+			<li class="activities">ensayo y revista didactica✅
+				<ul>
+					<li class="details">entrega:20/11/2020</li>
+				</ul>
+			</li>
+			<li class="activities">ensayo,discurso
+				<ul>
+					<li class="details">entrega:11/12/2020</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li class="subjects" id="subject-6"><a href="">Tecnica de Estudio e Investigacion</a>
+		<ul class="items">I Corte: El Estudio Y El Aprendizaje De Calidad
+			<li class="activities">Trabajo "Metodologias y Rol del estudiante"✅		
+				<ul>
+					<li class="details">entrega:3/10/2020</li>
+				</ul>
+			</li>
+			<li class="activities">APRENDIZAJE(mapa mental, infografia,etc) ✅
+				<ul>
+					<li class="details">Entrega: 17/10/2020</li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="items">II Corte: "La Busquedad de la informacion Y Las Nuevas Tecnologias"	
+				
+			<li class="activities">cuadro comparativo✅
+				<ul>
+					<li class="details">25/10/2020</li>
+				</ul>
+			</li>
+			<li class="activities">redactar un resumen sobre la tecnologia✅
+				<ul>
+					<li class="details">1/11/2020</li>
+				</ul>
+			</li>
+			<li class="activities">Metodo EPLEMER, elaborar taller escrito✅
+				<ul>
+					<li class="details">7/11/2020</li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="items">III Corte: "Conocimiento: Definición y tipos: Científico y Vulgar o cotidiano. Elaborar un mapa conceptual."	
+				
+			<li class="activities">Conocimiento, METODO CIENTIFICO
+				<ul>
+					<li class="details">27/11/2020</li>
+				</ul>
+		</ul>
+	</li>
+	</div>
+</body>
+</html>
